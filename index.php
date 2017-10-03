@@ -1,5 +1,7 @@
 <?php
-$chain1 = 'Bonjour Pauline';
-$chain2 = 'Bonjour tout le monde';
-echo $chain2. '!'.' '.$chain1. '!';
- ?>
+function mergeString($string1, $string2){
+  $result = $string1 . $string2;
+  return $result;
+}
+echo mergeString('Bonjour', ' tout le monde !');
+?>
